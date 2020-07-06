@@ -10,6 +10,10 @@
     <SignAssembly>false</SignAssembly>
     <DelaySign>false</DelaySign>
     <Description>Legacy Actionable Message Card Class to enable easier creation of actionable message cards using objects instead of having to build JSON strings within your code.</Description>
+    <RepositoryUrl>https://github.com/phil-curnow/Curnow.biz.MessageCard.git</RepositoryUrl>
+    <PackageTags>MessageCard, Legacy Message Card, Teams, Actionable Card</PackageTags>
+    <PackageProjectUrl>https://github.com/phil-curnow/Curnow.biz.MessageCard.git</PackageProjectUrl>
+    <PackageReleaseNotes>First Release of library</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
