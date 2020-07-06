@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Phil Curnow</Authors>
+    <Copyright>Copyright 2020 Phil Curnow</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SignAssembly>false</SignAssembly>
+    <DelaySign>false</DelaySign>
+    <Description>Legacy Actionable Message Card Class to enable easier creation of actionable message cards using objects instead of having to build JSON strings within your code.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Actions\" />
+    <Folder Include="Inputs\" />
+    <Folder Include="Section\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
