@@ -9,11 +9,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <SignAssembly>false</SignAssembly>
     <DelaySign>false</DelaySign>
-    <Description>Legacy Actionable Message Card Class to enable easier creation of actionable message cards using objects instead of having to build JSON strings within your code.</Description>
+    <Description>a .NET based Legacy Actionable Message Card (MessageCard) library to enable easier creation of Message Cards using object oriented coding instead of having to manipulate long JSON strings within your applications.
+
+Ideal for help with the development of Actionable Cards within Microsoft Teams.</Description>
     <RepositoryUrl>https://github.com/phil-curnow/Curnow.biz.MessageCard.git</RepositoryUrl>
-    <PackageTags>MessageCard, Legacy Message Card, Teams, Actionable Card</PackageTags>
+    <PackageTags>MessageCard Legacy Message Card Teams Actionable Card</PackageTags>
     <PackageProjectUrl>https://github.com/phil-curnow/Curnow.biz.MessageCard.git</PackageProjectUrl>
-    <PackageReleaseNotes>First Release of library</PackageReleaseNotes>
+    <PackageReleaseNotes>First release of library</PackageReleaseNotes>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>Public</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
