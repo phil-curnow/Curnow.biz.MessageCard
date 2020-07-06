@@ -20,7 +20,7 @@ namespace Curnow.biz.MessageCard.Inputs
         [DefaultValue(false)]
         public bool IsMultiSelect { get; set; }
 
-        [JsonProperty("style", NullValueHandling = NullValueHandling.Ignore, Order = 6)]
+        [JsonProperty("style", NullValueHandling = NullValueHandling.Ignore, Order = 8)]
         [JsonConverter(typeof(StringEnumConverter))]
         [DefaultValue(Style.Normal)]
         public Style Style { get; set; }
